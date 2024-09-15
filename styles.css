@@ -1,0 +1,150 @@
+body {
+  background-color: #FCF9F6;
+  font-family: Nunito, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.header {
+  background-color: #FFC6D1;
+  padding: 12 80 12 80;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo, .family-name, .header-buttons {
+  flex: 1 1 0%;
+}
+
+.logo {
+
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  width:fit-content;
+}
+
+.logo-name {
+  margin: 0;
+  width:fit-content;
+}
+
+.family-name {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.f-n-text {
+  margin: 0;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  gap: 16px;
+}
+
+.header-button {
+background-color: rgba(255, 255, 255, 0);
+border-radius: 50px;
+border: 2px solid #ffffff00;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.header-button:hover {
+  background-color: rgba(255, 255, 255, 20%);
+  border: 2px solid #ffffff00;
+}
+
+.header-button:active {
+  background-color: rgba(255, 255, 255, 40%);
+  border: 2px solid #ffffff00;
+}
+
+.try {
+  background-color: rgba(255, 255, 255, 0);
+border-radius: 50px;
+border: 2px solid #ffffff00;
+cursor: pointer;
+transition: 0.3s;
+}
+
+.try:hover {
+  background-color: rgba(255, 255, 255, 20%);
+  border: 2px solid #ffffff30;
+}
+
+.try:active {
+  background-color: rgba(255, 255, 255, 40%);
+  border: 2px solid #ffffff60;
+}
+
+.h-b-icon {
+  padding: 12 12 12 12;
+}
+
+.navigation {
+  background-color: #FFEAE9;
+  padding: 12 80 12 80;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+.menu-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left: 80px;
+  gap: 8px;
+}
+
+.m-d-name {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+  gap: 24px;
+}
+
+.menu-item {
+  background-color: #FFC6D100;
+  font-size: 16px;
+  font-weight: bold;
+  padding:4 16 4 16;
+  border: 1px solid #DEA3AF00;
+  border-radius: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #FFC6D120;
+  border: 1px solid #DEA3AF;
+}
+
+.menu-item:active {
+  background-color: #FFC6D1;
+  border: 1px solid #DEA3AF;
+}
+
+.menu-text {
+  margin: 0;
+}
